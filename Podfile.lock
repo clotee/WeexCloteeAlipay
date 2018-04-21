@@ -1,0 +1,22 @@
+PODS:
+  - Alipay-SDK (15.5.0)
+  - NatAlipay (0.0.3):
+    - Alipay-SDK
+  - WeexPluginLoader (0.0.1.9.1):
+    - WeexSDK
+  - WeexSDK (0.18.0)
+
+DEPENDENCIES:
+  - NatAlipay
+  - WeexPluginLoader
+  - WeexSDK
+
+SPEC CHECKSUMS:
+  Alipay-SDK: 704c302c8619e235f9acfb6f731bb7f36265bca5
+  NatAlipay: 792c972b18b4addea1e833c20fe11118c5327548
+  WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
+  WeexSDK: ac56f255ce9a48e93ebc2e003956ab20da33321d
+
+PODFILE CHECKSUM: 1ee5f876800597f8cbabe47bd9db8353e2d7790c
+
+COCOAPODS: 1.4.0
