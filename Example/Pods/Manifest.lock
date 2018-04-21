@@ -1,0 +1,16 @@
+PODS:
+  - WeexCloteeAlipay (0.1.0)
+
+DEPENDENCIES:
+  - WeexCloteeAlipay (from `../`)
+
+EXTERNAL SOURCES:
+  WeexCloteeAlipay:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WeexCloteeAlipay: 36536ce9f80dbd1d12e887a735ec970fee867ac6
+
+PODFILE CHECKSUM: 97323e0b76b489408fc06b46092f95bf8701c1f5
+
+COCOAPODS: 1.4.0

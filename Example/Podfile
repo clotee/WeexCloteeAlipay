@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WeexCloteeAlipay_Example' do
+  pod 'WeexCloteeAlipay', :path => '../'
+
+  target 'WeexCloteeAlipay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
