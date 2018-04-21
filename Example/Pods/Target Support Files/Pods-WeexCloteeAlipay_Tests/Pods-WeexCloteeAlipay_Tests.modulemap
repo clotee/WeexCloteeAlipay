@@ -1,0 +1,6 @@
+framework module Pods_WeexCloteeAlipay_Tests {
+  umbrella header "Pods-WeexCloteeAlipay_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

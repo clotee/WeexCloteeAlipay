@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EE3DF76FEE7A2DD662E91BC38B368A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 693E3FA93C438B6E0DCCCD556D3D0C5D /* ReplaceMe.m */; };
+		2AEB847E2BA775E997920FAA56CC819A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		61CCB3CD7A685173305DB605850CB147 /* Pods-WeexCloteeAlipay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D780C4256BEC36A4D2C725B0708B95 /* Pods-WeexCloteeAlipay_Example-dummy.m */; };
+		7482964C0CE2564CA854D575B40F15BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		89D3B7D525D2BE118BB2AE9A5C3AA3BA /* Pods-WeexCloteeAlipay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD88AED2A67C34BEABC0C76FD6A7AB46 /* Pods-WeexCloteeAlipay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2260ACCCCBE31F03295E26F452719EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BF535C2A02DBE4543734CC599E1024F2 /* WeexCloteeAlipay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28251D569DBBCEB43256908F89F97795 /* WeexCloteeAlipay-dummy.m */; };
+		D3E107079F9EAAAA42B1A1C01854B472 /* Pods-WeexCloteeAlipay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B1142D2F1CE39EC6B347F538734AB5 /* Pods-WeexCloteeAlipay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB36A7E39C28DA719255393C9CFFB094 /* Pods-WeexCloteeAlipay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 899706D83E3AC1476038FF74E3FE931C /* Pods-WeexCloteeAlipay_Tests-dummy.m */; };
+		E2764B581F6FE98D69A9DC65E4E80607 /* WeexCloteeAlipay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3521EF0C4F841CFE6D345744A9A28F /* WeexCloteeAlipay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CEFEF4343E6C1DB5B5E49F611FEACFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25D35B4E0D878E0253564EC789795B16;
+			remoteInfo = WeexCloteeAlipay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B1142D2F1CE39EC6B347F538734AB5 /* Pods-WeexCloteeAlipay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeexCloteeAlipay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		10D780C4256BEC36A4D2C725B0708B95 /* Pods-WeexCloteeAlipay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeexCloteeAlipay_Example-dummy.m"; sourceTree = "<group>"; };
+		1983B6A2560B16BC6F2EC05E53046FC5 /* Pods-WeexCloteeAlipay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeexCloteeAlipay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1B2E310E3E16BC0A421AA740CED18836 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1B690409E8EFDC4C59F67190F80D4BD2 /* Pods-WeexCloteeAlipay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WeexCloteeAlipay_Example.modulemap"; sourceTree = "<group>"; };
+		28251D569DBBCEB43256908F89F97795 /* WeexCloteeAlipay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WeexCloteeAlipay-dummy.m"; sourceTree = "<group>"; };
+		3352792A5ECCFB231F9FC9E5E06B2786 /* WeexCloteeAlipay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WeexCloteeAlipay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		43C5621C3B44C2005D1E36ACD4B4DF30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B9EEE2353A81A2E5CB8BE84EC446EA /* WeexCloteeAlipay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeexCloteeAlipay-prefix.pch"; sourceTree = "<group>"; };
+		4BF092055ACEA124A4E867867E9C2463 /* Pods_WeexCloteeAlipay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeexCloteeAlipay_Tests.framework; path = "Pods-WeexCloteeAlipay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3521EF0C4F841CFE6D345744A9A28F /* WeexCloteeAlipay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeexCloteeAlipay-umbrella.h"; sourceTree = "<group>"; };
+		506B30AD66ABF11C84445D27421C22C5 /* Pods-WeexCloteeAlipay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeexCloteeAlipay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53EAEB469A6D4D4C449266FC423971B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D3385E0D2E1D5C725609A7661BE00C6 /* WeexCloteeAlipay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WeexCloteeAlipay.framework; path = WeexCloteeAlipay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D45B258FA4E973A00CD3E966E67BE0A /* WeexCloteeAlipay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeexCloteeAlipay.xcconfig; sourceTree = "<group>"; };
+		63B93C28541669356906CC09F0476C18 /* Pods-WeexCloteeAlipay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeexCloteeAlipay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		693E3FA93C438B6E0DCCCD556D3D0C5D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WeexCloteeAlipay/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		723009A929A1E019F01642AA103AF98E /* Pods-WeexCloteeAlipay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexCloteeAlipay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BB679F9606A3E36E3CB964618C420E3 /* Pods-WeexCloteeAlipay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexCloteeAlipay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		82B3B21F7E86CF15D61E782871C04C64 /* Pods-WeexCloteeAlipay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeexCloteeAlipay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		899706D83E3AC1476038FF74E3FE931C /* Pods-WeexCloteeAlipay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeexCloteeAlipay_Tests-dummy.m"; sourceTree = "<group>"; };
+		8E2D79781FAD185174E3FBD77AECAF65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921DF2DE7129FEA97DF9855571EA39E2 /* Pods-WeexCloteeAlipay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeexCloteeAlipay_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97BB63E428EA8D077FFD586402017B67 /* Pods-WeexCloteeAlipay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WeexCloteeAlipay_Tests.modulemap"; sourceTree = "<group>"; };
+		A7ACE775EEA8409FD1DDC3C5B768F8C7 /* Pods-WeexCloteeAlipay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexCloteeAlipay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AAB695D3482C28676455D1C59C16CD13 /* Pods-WeexCloteeAlipay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexCloteeAlipay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B102C2D50264C816F12C9E2415309801 /* Pods-WeexCloteeAlipay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeexCloteeAlipay_Tests-resources.sh"; sourceTree = "<group>"; };
+		C9A6EFCB42932B92BD4D863D5656F463 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D88A8F8B148B22B5DBB1C16530B51D86 /* Pods-WeexCloteeAlipay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeexCloteeAlipay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD88AED2A67C34BEABC0C76FD6A7AB46 /* Pods-WeexCloteeAlipay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeexCloteeAlipay_Example-umbrella.h"; sourceTree = "<group>"; };
+		F0BB5831A0DE89820B01CDEA389A5E58 /* Pods_WeexCloteeAlipay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeexCloteeAlipay_Example.framework; path = "Pods-WeexCloteeAlipay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2ABA5C78F7D02A53C7EFF3F7E99F126 /* Pods-WeexCloteeAlipay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeexCloteeAlipay_Example-resources.sh"; sourceTree = "<group>"; };
+		F6F8B62F3354D02222478E2EC26D81FA /* WeexCloteeAlipay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WeexCloteeAlipay.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3383D54E602A85B590ED461CAFFB4C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEB847E2BA775E997920FAA56CC819A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DF935627D7527C7464DBF46A18BADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7482964C0CE2564CA854D575B40F15BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2920F7ED5BD6E3C0143E6ED5B27EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2260ACCCCBE31F03295E26F452719EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02434CF4684C001F113702F881E93680 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E2D79781FAD185174E3FBD77AECAF65 /* Info.plist */,
+				F6F8B62F3354D02222478E2EC26D81FA /* WeexCloteeAlipay.modulemap */,
+				5D45B258FA4E973A00CD3E966E67BE0A /* WeexCloteeAlipay.xcconfig */,
+				28251D569DBBCEB43256908F89F97795 /* WeexCloteeAlipay-dummy.m */,
+				46B9EEE2353A81A2E5CB8BE84EC446EA /* WeexCloteeAlipay-prefix.pch */,
+				4C3521EF0C4F841CFE6D345744A9A28F /* WeexCloteeAlipay-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WeexCloteeAlipay";
+			sourceTree = "<group>";
+		};
+		0472C77490F33B68E815378EA47CF0A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0BB5831A0DE89820B01CDEA389A5E58 /* Pods_WeexCloteeAlipay_Example.framework */,
+				4BF092055ACEA124A4E867867E9C2463 /* Pods_WeexCloteeAlipay_Tests.framework */,
+				5D3385E0D2E1D5C725609A7661BE00C6 /* WeexCloteeAlipay.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DB09EECD475E0BE294B69ACCC1B3DB7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7B5B195CCCD773DF3CD08CB80B05D9E /* WeexCloteeAlipay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6DB09EECD475E0BE294B69ACCC1B3DB7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0472C77490F33B68E815378EA47CF0A0 /* Products */,
+				9CDF19009EEBA111B44B625C8465FB30 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9CDF19009EEBA111B44B625C8465FB30 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0DD49F6EB5C88F2FB9B6CAC2C7E2AC9 /* Pods-WeexCloteeAlipay_Example */,
+				CBE1DDDF737049F15792868FF61F9CF0 /* Pods-WeexCloteeAlipay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBE1DDDF737049F15792868FF61F9CF0 /* Pods-WeexCloteeAlipay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				53EAEB469A6D4D4C449266FC423971B5 /* Info.plist */,
+				97BB63E428EA8D077FFD586402017B67 /* Pods-WeexCloteeAlipay_Tests.modulemap */,
+				D88A8F8B148B22B5DBB1C16530B51D86 /* Pods-WeexCloteeAlipay_Tests-acknowledgements.markdown */,
+				63B93C28541669356906CC09F0476C18 /* Pods-WeexCloteeAlipay_Tests-acknowledgements.plist */,
+				899706D83E3AC1476038FF74E3FE931C /* Pods-WeexCloteeAlipay_Tests-dummy.m */,
+				921DF2DE7129FEA97DF9855571EA39E2 /* Pods-WeexCloteeAlipay_Tests-frameworks.sh */,
+				B102C2D50264C816F12C9E2415309801 /* Pods-WeexCloteeAlipay_Tests-resources.sh */,
+				00B1142D2F1CE39EC6B347F538734AB5 /* Pods-WeexCloteeAlipay_Tests-umbrella.h */,
+				723009A929A1E019F01642AA103AF98E /* Pods-WeexCloteeAlipay_Tests.debug.xcconfig */,
+				7BB679F9606A3E36E3CB964618C420E3 /* Pods-WeexCloteeAlipay_Tests.release.xcconfig */,
+			);
+			name = "Pods-WeexCloteeAlipay_Tests";
+			path = "Target Support Files/Pods-WeexCloteeAlipay_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F0DD49F6EB5C88F2FB9B6CAC2C7E2AC9 /* Pods-WeexCloteeAlipay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				43C5621C3B44C2005D1E36ACD4B4DF30 /* Info.plist */,
+				1B690409E8EFDC4C59F67190F80D4BD2 /* Pods-WeexCloteeAlipay_Example.modulemap */,
+				506B30AD66ABF11C84445D27421C22C5 /* Pods-WeexCloteeAlipay_Example-acknowledgements.markdown */,
+				82B3B21F7E86CF15D61E782871C04C64 /* Pods-WeexCloteeAlipay_Example-acknowledgements.plist */,
+				10D780C4256BEC36A4D2C725B0708B95 /* Pods-WeexCloteeAlipay_Example-dummy.m */,
+				1983B6A2560B16BC6F2EC05E53046FC5 /* Pods-WeexCloteeAlipay_Example-frameworks.sh */,
+				F2ABA5C78F7D02A53C7EFF3F7E99F126 /* Pods-WeexCloteeAlipay_Example-resources.sh */,
+				DD88AED2A67C34BEABC0C76FD6A7AB46 /* Pods-WeexCloteeAlipay_Example-umbrella.h */,
+				A7ACE775EEA8409FD1DDC3C5B768F8C7 /* Pods-WeexCloteeAlipay_Example.debug.xcconfig */,
+				AAB695D3482C28676455D1C59C16CD13 /* Pods-WeexCloteeAlipay_Example.release.xcconfig */,
+			);
+			name = "Pods-WeexCloteeAlipay_Example";
+			path = "Target Support Files/Pods-WeexCloteeAlipay_Example";
+			sourceTree = "<group>";
+		};
+		F7B5B195CCCD773DF3CD08CB80B05D9E /* WeexCloteeAlipay */ = {
+			isa = PBXGroup;
+			children = (
+				693E3FA93C438B6E0DCCCD556D3D0C5D /* ReplaceMe.m */,
+				F9BC10CD16B957E594BEC9B650939B4B /* Pod */,
+				02434CF4684C001F113702F881E93680 /* Support Files */,
+			);
+			name = WeexCloteeAlipay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F9BC10CD16B957E594BEC9B650939B4B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C9A6EFCB42932B92BD4D863D5656F463 /* LICENSE */,
+				1B2E310E3E16BC0A421AA740CED18836 /* README.md */,
+				3352792A5ECCFB231F9FC9E5E06B2786 /* WeexCloteeAlipay.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AED6EC2B071A4657EF9AC5F4A52E252C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E107079F9EAAAA42B1A1C01854B472 /* Pods-WeexCloteeAlipay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12A4F564C85A7A42A4026D5EA2F53D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D3B7D525D2BE118BB2AE9A5C3AA3BA /* Pods-WeexCloteeAlipay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C16D4C19B696F082A4B1D594A29EB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2764B581F6FE98D69A9DC65E4E80607 /* WeexCloteeAlipay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25D35B4E0D878E0253564EC789795B16 /* WeexCloteeAlipay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DB10D7ADAE009231D457E4984C2C01 /* Build configuration list for PBXNativeTarget "WeexCloteeAlipay" */;
+			buildPhases = (
+				1BEA6D5BDF988C8383A564AEC4F1C009 /* Sources */,
+				36DF935627D7527C7464DBF46A18BADD /* Frameworks */,
+				F1C16D4C19B696F082A4B1D594A29EB6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeexCloteeAlipay;
+			productName = WeexCloteeAlipay;
+			productReference = 5D3385E0D2E1D5C725609A7661BE00C6 /* WeexCloteeAlipay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AEF31DB9C4E24484C8C7A7CEF035814 /* Pods-WeexCloteeAlipay_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73405B1A6AC1259B0914F163671CEA07 /* Build configuration list for PBXNativeTarget "Pods-WeexCloteeAlipay_Example" */;
+			buildPhases = (
+				47BB865BCE6EDF8FE2E8ED3C0802FCFC /* Sources */,
+				4F2920F7ED5BD6E3C0143E6ED5B27EE0 /* Frameworks */,
+				D12A4F564C85A7A42A4026D5EA2F53D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8FBC94352ACB40C127E59CAFCD0B6F0 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeexCloteeAlipay_Example";
+			productName = "Pods-WeexCloteeAlipay_Example";
+			productReference = F0BB5831A0DE89820B01CDEA389A5E58 /* Pods_WeexCloteeAlipay_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D527314572B0524D946740ED05B67C50 /* Pods-WeexCloteeAlipay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 733E588C36E18A2EA6CF90E278473B86 /* Build configuration list for PBXNativeTarget "Pods-WeexCloteeAlipay_Tests" */;
+			buildPhases = (
+				63D34F3A500D1E8620F7EC2C42452790 /* Sources */,
+				3383D54E602A85B590ED461CAFFB4C81 /* Frameworks */,
+				AED6EC2B071A4657EF9AC5F4A52E252C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WeexCloteeAlipay_Tests";
+			productName = "Pods-WeexCloteeAlipay_Tests";
+			productReference = 4BF092055ACEA124A4E867867E9C2463 /* Pods_WeexCloteeAlipay_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0472C77490F33B68E815378EA47CF0A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AEF31DB9C4E24484C8C7A7CEF035814 /* Pods-WeexCloteeAlipay_Example */,
+				D527314572B0524D946740ED05B67C50 /* Pods-WeexCloteeAlipay_Tests */,
+				25D35B4E0D878E0253564EC789795B16 /* WeexCloteeAlipay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BEA6D5BDF988C8383A564AEC4F1C009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE3DF76FEE7A2DD662E91BC38B368A /* ReplaceMe.m in Sources */,
+				BF535C2A02DBE4543734CC599E1024F2 /* WeexCloteeAlipay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BB865BCE6EDF8FE2E8ED3C0802FCFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CCB3CD7A685173305DB605850CB147 /* Pods-WeexCloteeAlipay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D34F3A500D1E8620F7EC2C42452790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB36A7E39C28DA719255393C9CFFB094 /* Pods-WeexCloteeAlipay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8FBC94352ACB40C127E59CAFCD0B6F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WeexCloteeAlipay;
+			target = 25D35B4E0D878E0253564EC789795B16 /* WeexCloteeAlipay */;
+			targetProxy = 8CEFEF4343E6C1DB5B5E49F611FEACFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0021621A3DFD089C779395451C97105B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D45B258FA4E973A00CD3E966E67BE0A /* WeexCloteeAlipay.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WeexCloteeAlipay/WeexCloteeAlipay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WeexCloteeAlipay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WeexCloteeAlipay/WeexCloteeAlipay.modulemap";
+				PRODUCT_NAME = WeexCloteeAlipay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		04572A5167A1C10837418F7816C86EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB695D3482C28676455D1C59C16CD13 /* Pods-WeexCloteeAlipay_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeexCloteeAlipay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeexCloteeAlipay_Example/Pods-WeexCloteeAlipay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WeexCloteeAlipay_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3263A42FCFED600C5FA6739935FCDD5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7ACE775EEA8409FD1DDC3C5B768F8C7 /* Pods-WeexCloteeAlipay_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeexCloteeAlipay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeexCloteeAlipay_Example/Pods-WeexCloteeAlipay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WeexCloteeAlipay_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		66A528694EDCCF8A26C9B6460C08553F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723009A929A1E019F01642AA103AF98E /* Pods-WeexCloteeAlipay_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeexCloteeAlipay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeexCloteeAlipay_Tests/Pods-WeexCloteeAlipay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WeexCloteeAlipay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BB69323A5F774CDAC4F291B687258BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D45B258FA4E973A00CD3E966E67BE0A /* WeexCloteeAlipay.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WeexCloteeAlipay/WeexCloteeAlipay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WeexCloteeAlipay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WeexCloteeAlipay/WeexCloteeAlipay.modulemap";
+				PRODUCT_NAME = WeexCloteeAlipay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D79759346A74BE683114B1F117CF4409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB679F9606A3E36E3CB964618C420E3 /* Pods-WeexCloteeAlipay_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeexCloteeAlipay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeexCloteeAlipay_Tests/Pods-WeexCloteeAlipay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WeexCloteeAlipay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00DB10D7ADAE009231D457E4984C2C01 /* Build configuration list for PBXNativeTarget "WeexCloteeAlipay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB69323A5F774CDAC4F291B687258BAA /* Debug */,
+				0021621A3DFD089C779395451C97105B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733E588C36E18A2EA6CF90E278473B86 /* Build configuration list for PBXNativeTarget "Pods-WeexCloteeAlipay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A528694EDCCF8A26C9B6460C08553F /* Debug */,
+				D79759346A74BE683114B1F117CF4409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73405B1A6AC1259B0914F163671CEA07 /* Build configuration list for PBXNativeTarget "Pods-WeexCloteeAlipay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3263A42FCFED600C5FA6739935FCDD5F /* Debug */,
+				04572A5167A1C10837418F7816C86EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

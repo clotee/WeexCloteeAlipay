@@ -1,0 +1,6 @@
+framework module WeexCloteeAlipay {
+  umbrella header "WeexCloteeAlipay-umbrella.h"
+
+  export *
+  module * { export * }
+}
