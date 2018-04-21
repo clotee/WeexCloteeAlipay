@@ -1,0 +1,2 @@
+# WeexCloteeAlipay
+WeexCloteeAlipay
