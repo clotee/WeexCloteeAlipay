@@ -1,2 +1,2 @@
 # WeexCloteeAlipay
-WeexCloteeAlipay
+WeexCloteeAlipay 插件
