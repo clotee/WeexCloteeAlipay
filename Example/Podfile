@@ -2,6 +2,9 @@ use_frameworks!
 
 target 'WeexCloteeAlipay_Example' do
   pod 'WeexCloteeAlipay', :path => '../'
+  pod 'WeexSDK'
+  pod 'WeexPluginLoader'
+  pod 'NatAlipay'
 
   target 'WeexCloteeAlipay_Tests' do
     inherit! :search_paths
