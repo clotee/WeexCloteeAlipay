@@ -7,12 +7,14 @@
 //
 
 #import "CloteeAppDelegate.h"
+#import "WeexCloteeAlipayModule.h"
 
 @implementation CloteeAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [WeexCloteeAlipayModule pay:];
     return YES;
 }
 

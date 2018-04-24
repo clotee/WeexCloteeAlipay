@@ -1,6 +1,6 @@
 {
   "name": "WeexCloteeAlipay",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "summary": "A Alipay plugin for Weex Project .",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/clotee/WeexCloteeAlipay",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/clotee/WeexCloteeAlipay.git",
-    "tag": "0.2.0"
+    "tag": "0.2.1"
   },
   "platforms": {
     "ios": "8.0"

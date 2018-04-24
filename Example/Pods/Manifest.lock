@@ -1,16 +1,29 @@
 PODS:
-  - WeexCloteeAlipay (0.1.0)
+  - Alipay-SDK (15.5.0)
+  - NatAlipay (0.0.3):
+    - Alipay-SDK
+  - WeexCloteeAlipay (0.2.1)
+  - WeexPluginLoader (0.0.1.9.1):
+    - WeexSDK
+  - WeexSDK (0.18.0)
 
 DEPENDENCIES:
+  - NatAlipay
   - WeexCloteeAlipay (from `../`)
+  - WeexPluginLoader
+  - WeexSDK
 
 EXTERNAL SOURCES:
   WeexCloteeAlipay:
     :path: ../
 
 SPEC CHECKSUMS:
-  WeexCloteeAlipay: 36536ce9f80dbd1d12e887a735ec970fee867ac6
+  Alipay-SDK: 704c302c8619e235f9acfb6f731bb7f36265bca5
+  NatAlipay: 792c972b18b4addea1e833c20fe11118c5327548
+  WeexCloteeAlipay: a21e7b23d71770cfa956c1c839e154e7704e471c
+  WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
+  WeexSDK: ac56f255ce9a48e93ebc2e003956ab20da33321d
 
-PODFILE CHECKSUM: 97323e0b76b489408fc06b46092f95bf8701c1f5
+PODFILE CHECKSUM: dc286bbebde8a7b464953cfcd85629afa943b115
 
 COCOAPODS: 1.4.0

@@ -1,14 +1,20 @@
-use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+#inhibit_all_warnings!
+
+def common
+    pod 'WeexCloteeAlipay', :path => '../'
+    pod 'WeexSDK'
+    pod 'WeexPluginLoader'
+    pod 'NatAlipay'
+end
 
 target 'WeexCloteeAlipay_Example' do
-  pod 'WeexCloteeAlipay', :path => '../'
-  pod 'WeexSDK'
-  pod 'WeexPluginLoader'
-  pod 'NatAlipay'
-
-  target 'WeexCloteeAlipay_Tests' do
-    inherit! :search_paths
-
+    common
     
-  end
+    target 'WeexCloteeAlipay_Tests' do
+        inherit! :search_paths
+        
+        
+    end
 end

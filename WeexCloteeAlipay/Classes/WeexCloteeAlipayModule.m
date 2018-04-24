@@ -3,7 +3,7 @@
 //  WeexPluginTemp
 //
 //  Created by  on 17/3/14.
-//  Copyright © 2017年 . All rights reserved.
+//  Copyright © 2018年 . All rights reserved.
 //
 
 #import "WeexCloteeAlipayModule.h"
