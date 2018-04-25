@@ -6,7 +6,7 @@ def common
     pod 'WeexCloteeAlipay', :path => '../'
     pod 'WeexSDK'
     pod 'WeexPluginLoader'
-    pod 'NatAlipay'
+    pod 'Alipay-SDK'
 end
 
 target 'WeexCloteeAlipay_Example' do
