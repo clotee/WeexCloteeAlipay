@@ -17,30 +17,30 @@ WX_PlUGIN_EXPORT_MODULE(weexCloteeAlipay, WeexCloteeAlipayModule)
 WX_EXPORT_METHOD(@selector(pay::))
 WX_EXPORT_METHOD(@selector(auth::))
 
-- (void)pay:(NSDictionary *)params :(WXModuleCallback)callback{
+- (void)pay:(NSDictionary *)params :(WXModuleKeepAliveCallback)callback{
     [[NatAlipay singletonManger] pay:params :^(id error,id result) {
         if (error) {
             if (callback) {
-                callback(error);
+                callback(error, result);
             }
         } else {
             if (callback) {
-                callback(result);
+                callback(error, result);
             }
         }
         
     }];
 }
 
-- (void)auth:(NSDictionary *)params :(WXModuleCallback)callback{
+- (void)auth:(NSDictionary *)params :(WXModuleKeepAliveCallback)callback{
     [[NatAlipay singletonManger] auth:params :^(id error,id result) {
         if (error) {
             if (callback) {
-                callback(error);
+                callback(error,result);
             }
         } else {
             if (callback) {
-                callback(result);
+                callback(error,result);
             }
         }
         

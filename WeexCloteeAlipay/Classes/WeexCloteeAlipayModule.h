@@ -11,8 +11,8 @@
 
 @protocol NatAlipayPro <WXModuleProtocol>
 
-- (void)pay:(NSDictionary *)params :(WXModuleCallback)callback;
-- (void)auth:(NSDictionary *)params :(WXModuleCallback)callback;
+- (void)pay:(NSDictionary *)params :(WXModuleKeepAliveCallback)callback;
+- (void)auth:(NSDictionary *)params :(WXModuleKeepAliveCallback)callback;
 
 @end
 @interface WeexCloteeAlipayModule :NSObject <WXModuleProtocol>
