@@ -13,7 +13,7 @@
 @implementation WeexCloteeAlipayModule
 @synthesize weexInstance;
 
-WX_PlUGIN_EXPORT_MODULE(weexCloteeAlipay, WeexCloteeAlipayModule)
+WX_PlUGIN_EXPORT_MODULE(Alipay, WeexCloteeAlipayModule)
 WX_EXPORT_METHOD(@selector(pay::))
 WX_EXPORT_METHOD(@selector(auth::))
 
@@ -28,7 +28,7 @@ WX_EXPORT_METHOD(@selector(auth::))
                 callback(result);
             }
         }
-        
+
     }];
 }
 
@@ -43,7 +43,7 @@ WX_EXPORT_METHOD(@selector(auth::))
                 callback(result);
             }
         }
-        
+
     }];
 }
 
