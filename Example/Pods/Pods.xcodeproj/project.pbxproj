@@ -50,7 +50,7 @@
 		1E38DC5FDF550D797509ACF5BC6F8546 /* WXStorageModule.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9652225B5C66302D5EDC85E07EBF9F /* WXStorageModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1E6431D2EFCCA268AC763422E632029A /* WXRecycleListComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E69D149DCA98309D68D18CFE72753E0 /* WXRecycleListComponent.m */; };
 		20243D71B899E24F05B12BA23F91D52F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E91A7BB0B7CC41870EF4A4CC25019F7 /* Foundation.framework */; };
-		208CE7FFE9807A66AA8646B963C98B0A /* WeexCloteeAlipayModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C71D54E30FC5BEFE3553F7B5997F7 /* WeexCloteeAlipayModule.m */; };
+		208CE7FFE9807A66AA8646B963C98B0A /* WeexCloteeAlipay.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C71D54E30FC5BEFE3553F7B5997F7 /* WeexCloteeAlipay.m */; };
 		2192EAD4925BCB8F4BCB35B5533717D9 /* WeexSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFD8F972C7BA43EF6DF6617D3CB7BC /* WeexSDK-dummy.m */; };
 		22361C7F553B0D3FF1DD41B339745B0F /* WXTextComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7A39C9CA0A12E8ADE512D8A6DC7B5C /* WXTextComponent.m */; };
 		23B3CFA6915145D324F5773C7D7FDC79 /* WXNavigatorModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0F31388DEF4F97216602AC8D815CAF /* WXNavigatorModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -131,7 +131,7 @@
 		74B91BB380B3E7F0E7CF31D3D567B186 /* WXWebViewModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 36320C92E5654ABD64B5CC7ED45BA80B /* WXWebViewModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		75173F746F9AF4780BD0939FCF480677 /* WXRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = D67A11E9FE592E2F8005F6C4825C83C0 /* WXRefreshComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		77930F8C3AE412425BF1576301748794 /* WXPickerModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C3147B0084069EFE9CE13850BEC15D0 /* WXPickerModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		77EFA1F15AF61F44EF34616599F4ED92 /* WeexCloteeAlipayModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC60F690F06908C4E3B54F8AACF532C /* WeexCloteeAlipayModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		77EFA1F15AF61F44EF34616599F4ED92 /* WeexCloteeAlipay.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC60F690F06908C4E3B54F8AACF532C /* WeexCloteeAlipay.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		791FABBC6C94BE20B49681ECB59D3F0B /* WeexSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 6478D08F857AE00BDB82B0DD0FA81490 /* WeexSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7996436B5954E775209439143A4BC41F /* WXURLRewriteDefaultImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8985A7A29856050304D200CFD1EB81 /* WXURLRewriteDefaultImpl.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		79F4C6078A647FF59A79D821AE687E70 /* WXTracingProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE00B5C0D6568D0FBE63E4D28D6B6D5 /* WXTracingProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -337,7 +337,7 @@
 		05E2F0DF4DA68C448DF940308C2E7A5E /* WXUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXUtility.h; path = ios/sdk/WeexSDK/Sources/Utility/WXUtility.h; sourceTree = "<group>"; };
 		073D472C09C4115EA43E02CB6CFE1C39 /* WXDatePickerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXDatePickerManager.h; path = ios/sdk/WeexSDK/Sources/Manager/WXDatePickerManager.h; sourceTree = "<group>"; };
 		07ACE29D34B57B021C5F75688D359E5F /* WeexCloteeAlipay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeexCloteeAlipay-prefix.pch"; sourceTree = "<group>"; };
-		084367DAA5D943949909C4C8061BFEEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		084367DAA5D943949909C4C8061BFEEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		08A70235CA31092010E43A21303DBD53 /* Pods-WeexCloteeAlipay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeexCloteeAlipay_Example-resources.sh"; sourceTree = "<group>"; };
 		09690E0D2922799B2B71CA0E726B55F6 /* WXTextInputComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXTextInputComponent.m; path = ios/sdk/WeexSDK/Sources/Component/WXTextInputComponent.m; sourceTree = "<group>"; };
 		0A3B36AB484F68162AD2F7C717258A61 /* WXTextComponentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXTextComponentProtocol.h; path = ios/sdk/WeexSDK/Sources/Protocol/WXTextComponentProtocol.h; sourceTree = "<group>"; };
@@ -349,7 +349,7 @@
 		0EEA4425FC6060A9DD1140AA3C9C65F1 /* WXCellSlotComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXCellSlotComponent.m; path = ios/sdk/WeexSDK/Sources/Component/RecycleList/WXCellSlotComponent.m; sourceTree = "<group>"; };
 		109FA9942A6DEA5EEB02F8E88DDAE87B /* WXInstanceWrap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXInstanceWrap.m; path = ios/sdk/WeexSDK/Sources/Module/WXInstanceWrap.m; sourceTree = "<group>"; };
 		10B0986DF98EAF1F548255834C3916CA /* NSTimer+Weex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+Weex.m"; path = "ios/sdk/WeexSDK/Sources/Utility/NSTimer+Weex.m"; sourceTree = "<group>"; };
-		124CF3EE82A5F4DEE7E752B947A02502 /* WeexCloteeAlipay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WeexCloteeAlipay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		124CF3EE82A5F4DEE7E752B947A02502 /* WeexCloteeAlipay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WeexCloteeAlipay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		12DAE7993045C778676DC6453172B54C /* WXComponent+ViewManagement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WXComponent+ViewManagement.m"; path = "ios/sdk/WeexSDK/Sources/View/WXComponent+ViewManagement.m"; sourceTree = "<group>"; };
 		13539486D2D030DBD7DCDB9ADAA41253 /* WXDebugTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXDebugTool.h; path = ios/sdk/WeexSDK/Sources/Debug/WXDebugTool.h; sourceTree = "<group>"; };
 		13B7BC6DA8FBF81510D43AE2DC035159 /* WXRootViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRootViewController.m; path = ios/sdk/WeexSDK/Sources/Controller/WXRootViewController.m; sourceTree = "<group>"; };
@@ -366,13 +366,13 @@
 		1E91A7BB0B7CC41870EF4A4CC25019F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1EE0A1A8A250B27B30F1EAF493D4B410 /* WXAssert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXAssert.m; path = ios/sdk/WeexSDK/Sources/Utility/WXAssert.m; sourceTree = "<group>"; };
 		1F90960D61DB0C3442630DF19106F9A4 /* WXResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXResourceLoader.h; path = ios/sdk/WeexSDK/Sources/Loader/WXResourceLoader.h; sourceTree = "<group>"; };
-		1FC60F690F06908C4E3B54F8AACF532C /* WeexCloteeAlipayModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeexCloteeAlipayModule.h; path = WeexCloteeAlipay/Classes/WeexCloteeAlipayModule.h; sourceTree = "<group>"; };
+		1FC60F690F06908C4E3B54F8AACF532C /* WeexCloteeAlipay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeexCloteeAlipay.h; path = WeexCloteeAlipay/Classes/WeexCloteeAlipay.h; sourceTree = "<group>"; };
 		20688C0C78C6C3B9C2C531BAC7733D01 /* WXStreamModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXStreamModule.m; path = ios/sdk/WeexSDK/Sources/Module/WXStreamModule.m; sourceTree = "<group>"; };
 		20956AE90E3B20E71C35147C6DC45EE4 /* WXDatePickerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXDatePickerManager.m; path = ios/sdk/WeexSDK/Sources/Manager/WXDatePickerManager.m; sourceTree = "<group>"; };
 		22128165BFD2D7D2DB4144DABA173282 /* WeexSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeexSDK-prefix.pch"; sourceTree = "<group>"; };
 		229C0BF90B46517A680AAE5190EED4BE /* WXCanvasComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXCanvasComponent.h; path = ios/sdk/WeexSDK/Sources/Component/WXCanvasComponent.h; sourceTree = "<group>"; };
 		22D5732506EEA17C82D63DAEE42F8EA6 /* WXInnerLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXInnerLayer.h; path = ios/sdk/WeexSDK/Sources/Display/WXInnerLayer.h; sourceTree = "<group>"; };
-		240E8DFF28A94C5692240393C7890FD5 /* libPods-WeexCloteeAlipay_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WeexCloteeAlipay_Tests.a"; path = "libPods-WeexCloteeAlipay_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		240E8DFF28A94C5692240393C7890FD5 /* libPods-WeexCloteeAlipay_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexCloteeAlipay_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2410A988CBA14959DBB4C95E9CE5EEDE /* WXAnimationModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXAnimationModule.h; path = ios/sdk/WeexSDK/Sources/Module/WXAnimationModule.h; sourceTree = "<group>"; };
 		2430EB71F2ADBB38F067461ACDBD83DD /* WXModalUIModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXModalUIModule.m; path = ios/sdk/WeexSDK/Sources/Module/WXModalUIModule.m; sourceTree = "<group>"; };
 		2764EC01B42688ACF5E60085D8E21323 /* WXComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXComponent.m; path = ios/sdk/WeexSDK/Sources/Model/WXComponent.m; sourceTree = "<group>"; };
@@ -402,7 +402,7 @@
 		3AFE7AF05AC6996DA20A75ABB9ABFDFD /* WXErrorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXErrorView.h; path = ios/sdk/WeexSDK/Sources/View/WXErrorView.h; sourceTree = "<group>"; };
 		3BBA6FFBD85E0F09B9A587F965AD85D2 /* WXTextAreaComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXTextAreaComponent.h; path = ios/sdk/WeexSDK/Sources/Component/WXTextAreaComponent.h; sourceTree = "<group>"; };
 		3C0D5E665903CAE25AF8D88044E2D8FC /* WXHandlerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXHandlerFactory.h; path = ios/sdk/WeexSDK/Sources/Manager/WXHandlerFactory.h; sourceTree = "<group>"; };
-		3DDD5EAD91A4A6474A328FC016864F29 /* libWeexSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWeexSDK.a; path = libWeexSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DDD5EAD91A4A6474A328FC016864F29 /* libWeexSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWeexSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E34A73566C106449378B3176CB80D7D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
 		40A4839A33A53A9983F90DE145C36711 /* Pods-WeexCloteeAlipay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexCloteeAlipay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		40B10A69399F10705C58E8F8C3D9B936 /* WXNavigatorModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXNavigatorModule.m; path = ios/sdk/WeexSDK/Sources/Module/WXNavigatorModule.m; sourceTree = "<group>"; };
@@ -422,7 +422,7 @@
 		4AF6EEE40E5B55185E882CEB6509A6CF /* WXTransform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXTransform.m; path = ios/sdk/WeexSDK/Sources/Component/WXTransform.m; sourceTree = "<group>"; };
 		4AFE7257F7D64A6533D3F5BD3A02ADAE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		4CE7EA5BD2DB87EF2C68DD537A977644 /* WXComponent+Navigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WXComponent+Navigation.h"; path = "ios/sdk/WeexSDK/Sources/Model/WXComponent+Navigation.h"; sourceTree = "<group>"; };
-		4D0C71D54E30FC5BEFE3553F7B5997F7 /* WeexCloteeAlipayModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WeexCloteeAlipayModule.m; path = WeexCloteeAlipay/Classes/WeexCloteeAlipayModule.m; sourceTree = "<group>"; };
+		4D0C71D54E30FC5BEFE3553F7B5997F7 /* WeexCloteeAlipay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WeexCloteeAlipay.m; path = WeexCloteeAlipay/Classes/WeexCloteeAlipay.m; sourceTree = "<group>"; };
 		4D4D961D86E6E8A551CDF03E5E0B8E40 /* WXPolyfillSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXPolyfillSet.h; path = ios/sdk/WeexSDK/Sources/Bridge/WXPolyfillSet.h; sourceTree = "<group>"; };
 		4D87764032DF3A2C74096E7FA0974F3D /* WXWebSocketLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXWebSocketLoader.h; path = ios/sdk/WeexSDK/Sources/Loader/WXWebSocketLoader.h; sourceTree = "<group>"; };
 		4E0D696B2A5107C337D243646828D60B /* WXUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXUtility.m; path = ios/sdk/WeexSDK/Sources/Utility/WXUtility.m; sourceTree = "<group>"; };
@@ -430,9 +430,9 @@
 		4F368150E1500FEAD7281A6B7EFC6D68 /* WXRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRefreshComponent.m; path = ios/sdk/WeexSDK/Sources/Component/WXRefreshComponent.m; sourceTree = "<group>"; };
 		5220B0C3BAA1162F6A18449088C7C7B4 /* WXTimerModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXTimerModule.h; path = ios/sdk/WeexSDK/Sources/Module/WXTimerModule.h; sourceTree = "<group>"; };
 		527FB158E94F4E73A3C98420D7A602B6 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		5452905875E52C57CA15BD0486016454 /* Layout.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Layout.c; path = ios/sdk/WeexSDK/Sources/Layout/Layout.c; sourceTree = "<group>"; };
-		551631720B4E58FD58116195E3EC3707 /* libPods-WeexCloteeAlipay_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WeexCloteeAlipay_Example.a"; path = "libPods-WeexCloteeAlipay_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		553C952BF007951F188989623D02F64B /* WXJSASTParser.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WXJSASTParser.mm; path = ios/sdk/WeexSDK/Sources/Component/RecycleList/WXJSASTParser.mm; sourceTree = "<group>"; };
+		5452905875E52C57CA15BD0486016454 /* Layout.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = Layout.c; path = ios/sdk/WeexSDK/Sources/Layout/Layout.c; sourceTree = "<group>"; };
+		551631720B4E58FD58116195E3EC3707 /* libPods-WeexCloteeAlipay_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexCloteeAlipay_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		553C952BF007951F188989623D02F64B /* WXJSASTParser.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WXJSASTParser.mm; path = ios/sdk/WeexSDK/Sources/Component/RecycleList/WXJSASTParser.mm; sourceTree = "<group>"; };
 		5628E60E17FBADD24B0D7B4C34C4CDED /* WXWeakObjectWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXWeakObjectWrapper.m; path = ios/sdk/WeexSDK/Sources/Utility/WXWeakObjectWrapper.m; sourceTree = "<group>"; };
 		567CCD211FD1DF7EAFF44A25CD3A9A37 /* WXResourceRequestHandlerDefaultImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXResourceRequestHandlerDefaultImpl.h; path = ios/sdk/WeexSDK/Sources/Network/WXResourceRequestHandlerDefaultImpl.h; sourceTree = "<group>"; };
 		5688B4A44F9AC1F94F34DC3DA2C9C3CC /* WXRecycleListComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRecycleListComponent.h; path = ios/sdk/WeexSDK/Sources/Component/RecycleList/WXRecycleListComponent.h; sourceTree = "<group>"; };
@@ -449,7 +449,7 @@
 		5E688281AAE02D3BC4B6306300E4CAC9 /* WXComponentFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXComponentFactory.m; path = ios/sdk/WeexSDK/Sources/Manager/WXComponentFactory.m; sourceTree = "<group>"; };
 		5EDFD8F972C7BA43EF6DF6617D3CB7BC /* WeexSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WeexSDK-dummy.m"; sourceTree = "<group>"; };
 		61B22B35CEBC434119639C27C8F17843 /* WXSimulatorShortcutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXSimulatorShortcutManager.h; path = ios/sdk/WeexSDK/Sources/Utility/WXSimulatorShortcutManager.h; sourceTree = "<group>"; };
-		62ADC9F84874C11C13B7C04FDF6BD6B7 /* WXRoundedRect.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WXRoundedRect.mm; path = ios/sdk/WeexSDK/Sources/Display/WXRoundedRect.mm; sourceTree = "<group>"; };
+		62ADC9F84874C11C13B7C04FDF6BD6B7 /* WXRoundedRect.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WXRoundedRect.mm; path = ios/sdk/WeexSDK/Sources/Display/WXRoundedRect.mm; sourceTree = "<group>"; };
 		646E11B017A298C93B766BBBE465EC24 /* WXServiceFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXServiceFactory.m; path = ios/sdk/WeexSDK/Sources/Manager/WXServiceFactory.m; sourceTree = "<group>"; };
 		6478D08F857AE00BDB82B0DD0FA81490 /* WeexSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeexSDK.h; path = ios/sdk/WeexSDK/Sources/WeexSDK.h; sourceTree = "<group>"; };
 		648DE503E58C495F786C4FA84D25AA7E /* WXGlobalEventModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXGlobalEventModule.h; path = ios/sdk/WeexSDK/Sources/Module/WXGlobalEventModule.h; sourceTree = "<group>"; };
@@ -463,10 +463,10 @@
 		6B1453A23CEA51A34E92AD970098E5E4 /* Pods-WeexCloteeAlipay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeexCloteeAlipay_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6B5F599F70D5F376D7AD4CD17EEA173F /* WXBridgeContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXBridgeContext.h; path = ios/sdk/WeexSDK/Sources/Bridge/WXBridgeContext.h; sourceTree = "<group>"; };
 		6DB25EC56C9B7FB2564065C5B924A51D /* WXLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXLog.h; path = ios/sdk/WeexSDK/Sources/Utility/WXLog.h; sourceTree = "<group>"; };
-		6E3DF6687AD1C750CFF2079BDF781686 /* WXComponent+DataBinding.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WXComponent+DataBinding.mm"; path = "ios/sdk/WeexSDK/Sources/Component/RecycleList/WXComponent+DataBinding.mm"; sourceTree = "<group>"; };
+		6E3DF6687AD1C750CFF2079BDF781686 /* WXComponent+DataBinding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WXComponent+DataBinding.mm"; path = "ios/sdk/WeexSDK/Sources/Component/RecycleList/WXComponent+DataBinding.mm"; sourceTree = "<group>"; };
 		6E69D149DCA98309D68D18CFE72753E0 /* WXRecycleListComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRecycleListComponent.m; path = ios/sdk/WeexSDK/Sources/Component/RecycleList/WXRecycleListComponent.m; sourceTree = "<group>"; };
 		71A5437FCEFAB53DAF6A33D801974C26 /* WXWebSocketHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXWebSocketHandler.h; path = ios/sdk/WeexSDK/Sources/WebSocket/WXWebSocketHandler.h; sourceTree = "<group>"; };
-		71ED6E5CB4AD2791A759A93BC849BBA3 /* libNatAlipay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNatAlipay.a; path = libNatAlipay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		71ED6E5CB4AD2791A759A93BC849BBA3 /* libNatAlipay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNatAlipay.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		722BD70E986F01D6AC6F61EAFEC06060 /* WXResourceResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXResourceResponse.m; path = ios/sdk/WeexSDK/Sources/Network/WXResourceResponse.m; sourceTree = "<group>"; };
 		736370FD6E6A180E6CE0AE98DD02EC2C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		74B8CD56A981C9C391274707A649E309 /* WXCellComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXCellComponent.m; path = ios/sdk/WeexSDK/Sources/Component/WXCellComponent.m; sourceTree = "<group>"; };
@@ -485,12 +485,12 @@
 		7C6BA9976D4D6627B4F915F042AE885A /* WXInvocationConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXInvocationConfig.h; path = ios/sdk/WeexSDK/Sources/Manager/WXInvocationConfig.h; sourceTree = "<group>"; };
 		7D227FFED3DD7C37A77D072B5136E330 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		7D4076913F30A22A3B6AEE50265F5788 /* WXAppConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXAppConfiguration.h; path = ios/sdk/WeexSDK/Sources/Utility/WXAppConfiguration.h; sourceTree = "<group>"; };
-		7E194678AE4C49650E1B4F389AA727AD /* native-bundle-main.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "native-bundle-main.js"; path = "pre-build/native-bundle-main.js"; sourceTree = "<group>"; };
+		7E194678AE4C49650E1B4F389AA727AD /* native-bundle-main.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = "native-bundle-main.js"; path = "pre-build/native-bundle-main.js"; sourceTree = "<group>"; };
 		800CC92902AF5EA9572500FE218E5556 /* WXMultiColumnLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXMultiColumnLayout.h; path = ios/sdk/WeexSDK/Sources/Component/Recycler/WXMultiColumnLayout.h; sourceTree = "<group>"; };
 		81131DC6F4CA95B2A6DCB23E0AA7B78A /* WXSliderNeighborComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXSliderNeighborComponent.m; path = ios/sdk/WeexSDK/Sources/Component/WXSliderNeighborComponent.m; sourceTree = "<group>"; };
 		81428DDA9776D8B8D51A6835C42D7BD4 /* WXBoxShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXBoxShadow.h; path = ios/sdk/WeexSDK/Sources/Utility/WXBoxShadow.h; sourceTree = "<group>"; };
 		81486CE8AFE552C0CE1563A5BA39D15E /* WXSDKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXSDKManager.m; path = ios/sdk/WeexSDK/Sources/Manager/WXSDKManager.m; sourceTree = "<group>"; };
-		81A228B2708A6163C19F29A4586CA571 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		81A228B2708A6163C19F29A4586CA571 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		81C3664E5A3958E5EB421C877412C438 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		827E7FDD6C650F132CA95D3C3F14273F /* WXDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXDefine.h; path = ios/sdk/WeexSDK/Sources/Utility/WXDefine.h; sourceTree = "<group>"; };
 		83744D4E9CB398AFBBB0DB2F294E258B /* WXResourceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXResourceRequest.m; path = ios/sdk/WeexSDK/Sources/Network/WXResourceRequest.m; sourceTree = "<group>"; };
@@ -508,7 +508,7 @@
 		8FBC533AC469A4327E45E5AB49F7ECB3 /* WXComponent+BoxShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WXComponent+BoxShadow.m"; path = "ios/sdk/WeexSDK/Sources/Display/WXComponent+BoxShadow.m"; sourceTree = "<group>"; };
 		915D8718EC4DF444BBE6393140637CD3 /* WXRecyclerDragController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRecyclerDragController.h; path = ios/sdk/WeexSDK/Sources/Component/Recycler/WXRecyclerDragController.h; sourceTree = "<group>"; };
 		927B4294294CD41203842076C21EFE6E /* WXVideoComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXVideoComponent.h; path = ios/sdk/WeexSDK/Sources/Component/WXVideoComponent.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		940787FD6A0A142FD9448AF279EDC8AE /* WXVoiceOverModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXVoiceOverModule.m; path = ios/sdk/WeexSDK/Sources/Module/WXVoiceOverModule.m; sourceTree = "<group>"; };
 		9456F2B5A66BC864F01963537EED8C71 /* WXImageComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXImageComponent.m; path = ios/sdk/WeexSDK/Sources/Component/WXImageComponent.m; sourceTree = "<group>"; };
 		9475A4B4DE599B1C3B0A71C54E9C65C5 /* WXCellSlotComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXCellSlotComponent.h; path = ios/sdk/WeexSDK/Sources/Component/RecycleList/WXCellSlotComponent.h; sourceTree = "<group>"; };
@@ -561,7 +561,7 @@
 		B44672C9773F6B71784E3121EA347772 /* WXRecycleListLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXRecycleListLayout.m; path = ios/sdk/WeexSDK/Sources/Component/RecycleList/WXRecycleListLayout.m; sourceTree = "<group>"; };
 		B4CEA7ED5161BC89A0F526260BC8C120 /* WXComponentManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXComponentManager.m; path = ios/sdk/WeexSDK/Sources/Manager/WXComponentManager.m; sourceTree = "<group>"; };
 		B500967DFEE6FF7E4098138492F80BB3 /* NatAlipay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NatAlipay.h; path = ios/Classes/NatAlipay.h; sourceTree = "<group>"; };
-		B504E767E5D9C41B57F3E8AA2CA38196 /* libWeexCloteeAlipay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWeexCloteeAlipay.a; path = libWeexCloteeAlipay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B504E767E5D9C41B57F3E8AA2CA38196 /* libWeexCloteeAlipay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWeexCloteeAlipay.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A91DB7CDF1735A3BE36A7B830A0EAF /* WXLoadingComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXLoadingComponent.h; path = ios/sdk/WeexSDK/Sources/Component/WXLoadingComponent.h; sourceTree = "<group>"; };
 		B96360196E6BB26BCD4B80AC517FBAA2 /* WXRecycleListTemplateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRecycleListTemplateManager.h; path = ios/sdk/WeexSDK/Sources/Component/RecycleList/WXRecycleListTemplateManager.h; sourceTree = "<group>"; };
 		BA20A11D13C8622928E59C9CEAF5A2C1 /* WXRecycleListUpdateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRecycleListUpdateManager.h; path = ios/sdk/WeexSDK/Sources/Component/RecycleList/WXRecycleListUpdateManager.h; sourceTree = "<group>"; };
@@ -738,7 +738,6 @@
 				0E9036BB6A39415570FD9B640FE4FB40 /* Frameworks */,
 				2118529A71F281682C5C1E5B6415D9CC /* Resources */,
 			);
-			name = "Alipay-SDK";
 			path = "Alipay-SDK";
 			sourceTree = "<group>";
 		};
@@ -749,7 +748,6 @@
 				5915AB8C2CCA69641BFBD0E3E771B7F7 /* NatAlipay.m */,
 				7FB8B029BF5582DD61B809C887C9E9EB /* Support Files */,
 			);
-			name = NatAlipay;
 			path = NatAlipay;
 			sourceTree = "<group>";
 		};
@@ -834,7 +832,6 @@
 			children = (
 				A59600BE25F4D8CB8F8976B2C1434534 /* Frameworks */,
 			);
-			name = WeexPluginLoader;
 			path = WeexPluginLoader;
 			sourceTree = "<group>";
 		};
@@ -1147,7 +1144,6 @@
 				BC428872AAF142B9BD4115E1ED0167B8 /* Resources */,
 				AD3FE14A4B6AFC9A949B3A5FDD98597F /* Support Files */,
 			);
-			name = WeexSDK;
 			path = WeexSDK;
 			sourceTree = "<group>";
 		};
@@ -1200,8 +1196,8 @@
 		E975C765CCC24A232EF21049B93BDB7F /* WeexCloteeAlipay */ = {
 			isa = PBXGroup;
 			children = (
-				1FC60F690F06908C4E3B54F8AACF532C /* WeexCloteeAlipayModule.h */,
-				4D0C71D54E30FC5BEFE3553F7B5997F7 /* WeexCloteeAlipayModule.m */,
+				1FC60F690F06908C4E3B54F8AACF532C /* WeexCloteeAlipay.h */,
+				4D0C71D54E30FC5BEFE3553F7B5997F7 /* WeexCloteeAlipay.m */,
 				F64A01D2BB3DBF7FCB4FC241F8783A96 /* Pod */,
 				DBBC1F20B76A46A57904B60C12AAD664 /* Support Files */,
 			);
@@ -1399,7 +1395,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77EFA1F15AF61F44EF34616599F4ED92 /* WeexCloteeAlipayModule.h in Headers */,
+				77EFA1F15AF61F44EF34616599F4ED92 /* WeexCloteeAlipay.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1545,7 +1541,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8486C473A92B9DED3636CEEACC5791B1 /* WeexCloteeAlipay-dummy.m in Sources */,
-				208CE7FFE9807A66AA8646B963C98B0A /* WeexCloteeAlipayModule.m in Sources */,
+				208CE7FFE9807A66AA8646B963C98B0A /* WeexCloteeAlipay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
