@@ -7,7 +7,7 @@
 //
 
 #import "CloteeAppDelegate.h"
-#import "WeexCloteeAlipayModule.h"
+#import "WeexCloteeAlipay.h"
 
 @implementation CloteeAppDelegate
 
